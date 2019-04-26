@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "AVENGEANCE";
+  src: url("./police/AVENGEANCE.ttf");
+}
+@font-face {
+  font-family: "AVENGEANCE1";
+  src: url("./police/AVENGEANCE MIGHTIEST AVENGER.otf");
+}
+
+body {
+  background-color: #504a4ab7;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-video {
+  z-index: 10;
+  /* max-width: 1000px; */
+}
+
+/* header */
+
+.menu-nav {
+  transform: translateX(500px);
+  margin-bottom: 0;
+  display: flex;
+  z-index: 10;
+  width: 100%;
+  /* position: absolute; */
+  /* top: 5px;
+    left: 5px; */
+
+  justify-content: space-between;
+  align-items: center;
+
+  /* position: fixed; */
+  font-size: 21px;
+  font-weight: bold;
+  /* margin: 20px 0 0 0; */
+  position: fixed;
+}
+
+.container-video a {
+  font-family: "AVENGEANCE", sans-serif;
+  margin-right: 25px;
+  font-size: 20px;
+  text-decoration: none;
+  /* transform: translateY(-30px); */
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: black;
+}
+
+.geste-simple1 img {
+  width: 70%;
+  height: 300px;
+}
+.geste-simple1 {
+  display: flex;
+  justify-content: space-between;
+}
+.carré {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloc {
+  color: #51137a;
+  width: 70%;
+  transform: translateY(-80px);
+  background-color: white;
+  height: 250px;
+  line-height: 170%;
+  padding: 0 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 1%;
+}
+/* .bloc2 {
+  color: rgba(128, 128, 128, 0.808);
+  width: 80%;
+  transform: translateY(-138px);
+  background-color: white;
+  height: 200px;
+  line-height: 170%;
+  padding: 0 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 1%;
+} */
+
+.geste-simple2 img {
+  width: 100%;
+}
+.geste-simple2 {
+  border: solid red 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* deuxieme ligne */
+#page-container h4 {
+  margin: 0;
+  height: 150px;
+  padding: 0 0;
+  text-align: center;
+  font-size: 50px;
+  color: #46848c;
+  font-weight: bold;
+}
+.geste-engagé img {
+  width: 100%;
+}
+.geste-engagé {
+  border: solid black 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#page-container .lien {
+  width: 300px;
+  height: 100px;
+
+  text-align: center;
+  background-color: #46848c;
+}
+#page-container a {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+#page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+#page-container h6 {
+  text-align: center;
+  font-size: 50px;
+  color: #46848c;
+  font-weight: bold;
+  line-height: 170%;
+}
+#page-container h1 {
+  color: #3d1458;
+  font-size: 60px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  font-family: "AVENGEANCE";
+}
+#footer-container {
+  width: 100%;
+  padding-left: 10px;
+  margin-top: 20px;
+
+  height: auto;
+
+  background: #ecf0f1;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+  transform: translateY(0);
+}
+#footer-container .footer-reseaux {
+  display: flex;
+}
+
+#footer-container .footer-reseaux img {
+  margin-right: 0;
+  width: 30px;
+}

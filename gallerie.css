@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "AVENGEANCE";
+  src: url("./police/AVENGEANCE.ttf");
+}
+@font-face {
+  font-family: "AVENGEANCE1";
+  src: url("./police/AVENGEANCE MIGHTIEST AVENGER.otf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #999999;
+  font-family: "Roboto", sans-serif;
+}
+.menu-nav {
+  transform: translateX(500px);
+  margin-bottom: 0;
+  margin-top: 10px;
+  display: flex;
+  z-index: 10;
+  width: 100%;
+  /* position: absolute; */
+  /* top: 5px;
+      left: 5px; */
+
+  justify-content: space-between;
+  align-items: center;
+
+  /* position: fixed; */
+  font-size: 21px;
+  font-weight: bold;
+  /* margin: 20px 0 0 0; */
+  position: fixed;
+}
+
+.container-video a {
+  font-family: "AVENGEANCE", sans-serif;
+  margin-right: 25px;
+  font-size: 20px;
+  text-decoration: none;
+  /* transform: translateY(-30px); */
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: black;
+}
+#parent {
+  background-color: #504a4ab7;
+  /* filter: brightness(0.4); */
+  background-size: cover;
+}
+#parent h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 150px;
+  font-family: "AVENGEANCE", sans-serif;
+  background-color: white;
+  padding: 0 0 0 50px;
+  margin: 160px 0;
+  font-size: 44px;
+  font-weight: bold;
+  color: #3d1458;
+  text-shadow: 0 0px 1px rgb(255, 255, 255);
+}
+#parent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1400px;
+}
+#parent .botte {
+  display: flex;
+  margin: 0;
+  height: 400px;
+}
+#parent .container3 .photo {
+  display: flex;
+  margin-left: 70px;
+}
+#parent .botte .container1 img {
+  padding-left: 70px;
+  width: 750px;
+  height: 400px;
+}
+
+#parent .botte .container2 {
+  display: flex;
+  flex-direction: column;
+
+  width: 390px;
+  height: 1100px;
+}
+
+#parent .botte .container2 img {
+  width: 360px;
+}
+
+#parent .container3 {
+  margin-left: 0;
+  margin-top: 0;
+}
+#parent .container3 img {
+  width: 375px;
+  height: 300px;
+  padding: 0 0 0 0;
+}
+
+.phoque {
+  margin-left: 200px;
+  padding: 0;
+}
+.phoque img {
+  width: 600px;
+  height: 252px;
+  margin: 0;
+}
+
+.container2 .texte {
+  text-shadow: 0 0px 1px rgb(255, 255, 255);
+  padding-right: 20px;
+  transform: translateX(-200px);
+  font-weight: bold;
+  background-color: white;
+  display: flex;
+
+  padding-left: 30px;
+  height: 220px;
+  width: 590px;
+  color: #3d1458;
+}
+.container2 .texte h5 {
+  transform: translateY(-20px);
+  color: #3d1458;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 0 0px 1px rgb(255, 255, 255);
+}
+.container2 .grand {
+  height: 460px;
+}
+#gallerie2 {
+  display: flex;
+  width: 100%;
+  margin-top: 140px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+#gallerie2 img {
+  width: 420px;
+  height: 300px;
+  margin-bottom: 40px;
+}
+#gallerie2 h1 {
+  font-size: 46px;
+  top: 1550px;
+  left: 0;
+  align-items: center;
+  padding: 0 0 0 10px;
+  display: flex;
+  position: absolute;
+  height: 150px;
+  width: 300px;
+  border: solid white 3px;
+  background-color: black;
+  color: white;
+}
+.fin {
+  flex-direction: column;
+}
+body h1 {
+  padding-top: 40px;
+  transform: translateX(-60px);
+}
+.fin h2 {
+  width: 300px;
+  text-align: center;
+  display: flex;
+  transform: translateX(450px);
+
+  justify-content: center;
+}
+.fin a {
+  text-align: center;
+  color: white;
+  font-size: 44px;
+  transform: translateX(470px);
+  width: 350px;
+  background-color: black;
+  text-decoration: none;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+body h1 {
+  margin-left: 25%;
+  width: 60%;
+  text-align: center;
+  color: #a50000;
+}
+#footer-container {
+  padding-left: 10px;
+  margin-top: 20px;
+
+  height: auto;
+
+  background: #ecf0f1;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+  transform: translateY(0);
+}
+
+#footer-container .footer-reseaux img {
+  margin-right: 0;
+  width: 30px;
+}
